@@ -1,0 +1,53 @@
+{"intents": [
+  {"tag": "greeting",
+   "patterns": ["Hi", "Hey", "Is anyone there?", "Hello", "Good day","Namaste", "Namaskar"],
+   "responses": ["Hello!", "Good to see you again", "Hi, how can I help?"],
+   "context_set": ""
+  },
+  {"tag": "goodbye",
+   "patterns": ["Bye", "See you later!", "Goodbye"],
+   "responses": ["See you later, thanks for visiting", "Have a good day", "Bye! Come back again soon"]
+  },
+  {"tag": "thanks",
+   "patterns": ["Thanks", "Thank you", "That's helpful","Awesome","You're Great","Wonderful","I Appreciate you"],
+   "responses": ["Happy to help!", "Any time!", "My pleasure","I'm honoured to serve","No worries, I'm here to help","You're Welcome", "I'm glad to help you"]
+  },
+  {"tag": "About",
+   "patterns": ["what is AICTE?", "What does AICTE do?", "What are the functions of AICTE?" "What AICTE means","Full form of AICTE","Why AICTE?","What is Abbrevation of AICTE?","Website for AICTE","Web link of AICTE","Web Address for AICTE"],
+   "responses": ["All India Council for Technical Education (AICTE) was set up in November 1945 as a national-level Apex Advisory Body to conduct a survey on the facilities available for technical education and to promote development in the country in a coordinated and integrated manner.\nFor more information visit :  https://www.aicte-india.org/"]
+  },
+  {"tag": "About me",
+   "patterns": ["Can I contact about queries through mail?","How can I contact through mail regarding queries?","Where Can I mail queries related to portal and approval related issues for the approval process 2021-22?","How to mail about queries?"],
+   "responses": ["No queries through email will be entertained"]
+  },
+  {"tag": "Founder",
+   "patterns": ["Who found you?","Who discovered you?","Who invented you?","Who are your parents?"],
+   "responses": ["Thats a secret"]
+  },
+
+  {"tag": "Courses",
+   "patterns": ["What courses come under AICTE?","Various courses of AICTE?","What courses does AICTE constitute?"],
+   "responses": ["Undergraduate Degree Courses in Engineering & Technology (Vol. I)\nUndergraduate Degree Courses in Engineering & Technology (Vol. II)\nPostgraduate Degree Courses in Engineering & Technology (Vol. I)\nPostgraduate Degree Courses in Engineering & Technology (Vol. II)\nManagement Program (MBA & PGDM)\n"]
+  },
+  {"tag": "Bureau",
+   "patterns": ["What are the List of Bureaus of AICTE","What Bureaus does AICTE consist?" ],
+   "responses": ["The AICTE comprises following bureaus, namely:\n\ne-Governance (e-Gov) Bureau\nApproval (AB) Bureau\nPlanning and Co-ordination (PC) Bureau and Academic (Acad) Bureau\nUniversity (UB) Bureau\nAdministration (Admin) Bureau\nFinance (Fin) Bureau\nResearch, Institutional and Faculty Development (RIFD) Bureau\nApart from this there are 10 Board of Studies dealing with technician, vocational, undergraduate engineering, postgraduate engineering and research, architecture, town and country planning, pharmacy, management, applied arts and crafts, hotel management and catering technology education."]
+  },
+  {"tag": "AICTSD",
+   "patterns": ["What is the All India Council for Technical Skill Development?","What do you mean by AICTSD?",],
+   "responses": ["All India Council for Technical Skill Development for AICTSD is a National non-profitable organization which was set up with an objective to improve the technical skills of youth in the country."]
+  },
+  {"tag": "Schemes and Initiatives",
+   "patterns": ["What are various schemes and intiatives of AICTE?","Can I know schemes and initiatives under AICTE?","What schemes does AICTE have?","Does AICTE have any schemes and initiatives?"],
+   "responses": ["Multiple schemes and programmes have been initiated by the All India Council For Technical Education (AICTE) for the development of education in the country. Discussed below are the same in brief:\n\nStudent Development Schemes\nPragati Scheme to award meritorious girls\nSaksham Scholarship for Different Abled students\nPrerna Scheme for SC/ST Students preparing for higher education\nSmariddhi Scheme for SC/ST students to help them with their startups\nFaculty Development Schemes\nNational Initiative for Technical Teachers Training (NITTT)\nDistinguished Visiting Professorship Scheme\nInstitutional Development Schemes\nAICTE-IDEA (Idea Development, Evaluation & Application) Lab\nAICTE Scheme for promoting Interest, Creativity and Ethics among Students\nE- SHODH SINDHU for free access to e-Journals/ e-Resources to AICTE approved Government/ Government-Aided technical institutes\nResearch & Innovation Development schemes\nEntrepreneurship Development Cell\nCollaborative Research Scheme (CRS) to provide research grant to young faculty members\nGeneral Schemes\nSaansad Aadarsh Gram Yojana for rural development"]
+  },
+  {"tag": "Chairman",
+   "patterns": ["Who is the current Chairman of All India Council For Technical Education?","Who is Chairman of AICTE?",],
+   "responses": ["As in January 2021, Anil Dattatraya Sahasrabudhe is the Chairman of All India Council for Technical Education (AICTE). He is also working as Professor of Mechanical Engineering at Indian Institute of Technology (IIT), Guwahati."]
+  },
+  {"tag": "AICTE act",
+   "patterns": ["What is the All India Council For Technical Education Act 1987?","What is AICTE Act 1987?","Tell me about AICTE Act 1987."],
+   "responses": ["AICTE Act was published by the Ministry of Law & Justice for the development of AICTE with an aim to provide proper planning and coordinated development of the technical education system in India."]
+  }
+]
+}
